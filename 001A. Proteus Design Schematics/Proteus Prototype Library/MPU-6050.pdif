@@ -1,0 +1,383 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "MPU6050"
+      (family "ANA")
+      (package "QFN50P400X400X9524N")
+      (description "MPU-6050_Six-Axis_(Gyro_+_Accelerometer)_MEMS_MotionTracking™_Devices")
+      (attribute "PKG_TYPE" "QFN50P400X400X9524N")
+      (attribute "MF" "TDK")
+      (attribute "DESCRIPTION" "IMU_ACCEL/GYRO_3-AXIS_I2C_24QFN")
+      (attribute "PRICE" "5.45_USD")
+      (attribute "MP" "MPU-6050")
+      (attribute "STANDARD" "IPC-7351B")
+      (attribute "PARTREV" "3.4")
+      (attribute "AVAILABILITY" "Good")
+      (attribute "PACKAGE" "QFN-24_InvenSense")
+      (gate
+        (swap 1)
+        (symbol "MPU6050")
+        (pin "AD0" 9 (type IP))
+        (pin "AUX_CL" 7 (type IP))
+        (pin "AUX_DA" 6 (type IO))
+        (pin "CLKIN" 1 (type IP))
+        (pin "CPOUT" 20 (type PS))
+        (pin "FSYNC" 11 (type IP))
+        (pin "GND" 18 (type PP))
+        (pin "INT" 12 (type OP))
+        (pin "REGOUT" 10 (type PS))
+        (pin "RESV" 22 (type PS))
+        (pin "RESV_1" 19 (type PS))
+        (pin "RESV_2" 21 (type PS))
+        (pin "SCL" 23 (type IP))
+        (pin "SDA" 24 (type IO))
+        (pin "VDD" 13 (type PP))
+        (pin "VLOGIC" 8 (type PP))
+      )
+    )
+    (symbol "MPU6050"
+      (units THOU)
+      (graphic
+        (stroke 1)
+        (path (pt -500 900) (pt 500 900) (pt 500 -900) (pt -500 -900) (pt -500 900) (closed))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -600.0 300.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -600.0 400.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -600.0 -500.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -600.0 500.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 600.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -600.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 600.0 -800.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 600.0 300.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 600.0 -300.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 600.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 600.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 600.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_C_L100") (pt -600.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -600.0 -300.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 600.0 800.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 600.0 700.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 100.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -100.0 0.0))
+      )
+    )
+    (symbol "PIN_R0_C_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 100.0 -39.37) (pt 178.74 0.0))
+      )
+      (graphic
+        (stroke 6.5)
+        (path (pt 178.74 0.0) (pt 100.0 39.37))
+      )
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 100.0 0.0))
+      )
+    )
+    (package "QFN50P400X400X9524N"
+      (units THOU)
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt 80.71 80.71) (pt -80.71 80.71))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 80.71 -80.71) (pt -80.71 -80.71))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 80.71 80.71) (pt 80.71 -80.71))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -80.71 80.71) (pt -80.71 -80.71))
+        )
+      )
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt 61.42 80.71) (pt 80.71 80.71))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 80.71 80.71) (pt 80.71 61.42))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -61.42 -80.71) (pt -80.71 -80.71))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -80.71 -80.71) (pt -80.71 -61.42))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 80.71 -61.42) (pt 80.71 -80.71))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 80.71 -80.71) (pt 61.42 -80.71))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -122.05 51.18) (pt -114.17 51.18))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -80.71 61.42) (pt -80.71 80.71))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -61.42 80.71) (pt -80.71 80.71))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -103.15 103.15) (pt 103.15 103.15))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 103.15 103.15) (pt 103.15 -103.15))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 103.15 -103.15) (pt -103.15 -103.15))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -103.15 -103.15) (pt -103.15 103.15))
+        )
+      )
+      (leg 1 (pt -77.56 49.21) (padstack 1))
+      (leg 2 (pt -77.56 29.53) (padstack 2))
+      (leg 3 (pt -77.56 9.84) (padstack 3))
+      (leg 4 (pt -77.56 -9.84) (padstack 4))
+      (leg 5 (pt -77.56 -29.53) (padstack 5))
+      (leg 6 (pt -77.56 -49.21) (padstack 6))
+      (leg 7 (pt -49.21 -77.56) (padstack 7))
+      (leg 8 (pt -29.53 -77.56) (padstack 8))
+      (leg 9 (pt -9.84 -77.56) (padstack 9))
+      (leg 10 (pt 9.84 -77.56) (padstack 10))
+      (leg 11 (pt 29.53 -77.56) (padstack 11))
+      (leg 12 (pt 49.21 -77.56) (padstack 12))
+      (leg 13 (pt 77.56 -49.21) (padstack 13))
+      (leg 14 (pt 77.56 -29.53) (padstack 14))
+      (leg 15 (pt 77.56 -9.84) (padstack 15))
+      (leg 16 (pt 77.56 9.84) (padstack 16))
+      (leg 17 (pt 77.56 29.53) (padstack 17))
+      (leg 18 (pt 77.56 49.21) (padstack 18))
+      (leg 19 (pt 49.21 77.56) (padstack 19))
+      (leg 20 (pt 29.53 77.56) (padstack 20))
+      (leg 21 (pt 9.84 77.56) (padstack 21))
+      (leg 22 (pt -9.84 77.56) (padstack 22))
+      (leg 23 (pt -29.53 77.56) (padstack 23))
+      (leg 24 (pt -49.21 77.56) (padstack 24))
+      (padstack 1
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 0))
+      )
+      (padstack 2
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 0))
+      )
+      (padstack 3
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 0))
+      )
+      (padstack 4
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 0))
+      )
+      (padstack 5
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 0))
+      )
+      (padstack 6
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 0))
+      )
+      (padstack 7
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 90.0))
+      )
+      (padstack 8
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 90.0))
+      )
+      (padstack 9
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 90.0))
+      )
+      (padstack 10
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 90.0))
+      )
+      (padstack 11
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 90.0))
+      )
+      (padstack 12
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 90.0))
+      )
+      (padstack 13
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 179.99))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 179.99))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 179.99))
+      )
+      (padstack 14
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 179.99))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 179.99))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 179.99))
+      )
+      (padstack 15
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 179.99))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 179.99))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 179.99))
+      )
+      (padstack 16
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 179.99))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 179.99))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 179.99))
+      )
+      (padstack 17
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 179.99))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 179.99))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 179.99))
+      )
+      (padstack 18
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 179.99))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 179.99))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 179.99))
+      )
+      (padstack 19
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 90.0))
+      )
+      (padstack 20
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 90.0))
+      )
+      (padstack 21
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 90.0))
+      )
+      (padstack 22
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 90.0))
+      )
+      (padstack 23
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 90.0))
+      )
+      (padstack 24
+        (pad (layer TCOP) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TRES) (rectf 10.24 31.1 0 0.0 90.0))
+        (pad (layer TPST) (rectf 10.24 31.1 0 0.0 90.0))
+      )
+      (model MPU-6050.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)
